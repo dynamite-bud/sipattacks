@@ -1,0 +1,72 @@
+Aastra 480i/1.3.0.1080 Brcm Callctrl/1.5.1 MxSF/v3.2.6.26
+Aastra 480i Cordless/1.3.0.1080 Brcm Callctrl/1.5.1 MxSF/v3.2.6.26
+Aastra 9112i/1.3.0.1080 Brcm Callctrl/1.5.1 MxSF/v3.2.6.26
+Aastra 9133i/1.3.0.1080 Brcm Callctrl/1.5.1 MxSF/v3.2.6.26
+Ahead SIPPS IP Phone Version 2.0.50.8
+Asterisk PBX
+Asterisk PBX 1.6.0.26-FONCORE-r78
+Brcm Callctrl/1.5.1.0 MxSF/v3.2.6.26
+Centile-supra
+Centile-Supra/1
+Cisco-CUCM6.1
+CSCO/4
+CSCO/7
+Firefly
+Grandstream 1.0.4.39
+Grandstream BT100 1.0.4.49
+Grandstream BT100 1.0.4.55
+Grandstream BT100 1.0.5.0
+Grandstream BT100 1.0.5.11
+Grandstream BT100 1.0.5.3
+Grandstream HT286 1.0.4.55
+Grandstream HT286 1.0.5.11
+Grandstream HT286 1.0.5.3
+Grandstream HT486 1.0.4.81
+Grandstream HT486 1.0.5.0
+Grandstream HT486 1.0.5.10
+Grandstream HT486 1.0.5.3
+Grandstream SIP UA 1.0.4.23
+Intraswitch/7.5.4.61_SCF-8
+Intraswitch/7.5.4.61_SCF-8_InternalCall
+Intraswitch/6.4.33
+KPhone/3.13
+KPhone/3.14
+kphone/4.0.2
+kphone/4.0.3
+kphone/4.0.4
+kphone/4.1.1
+kphone/4.2
+KPhoneSI/1.0
+OmniSession/1.0.0.3
+optiPoint 600 office MxSF/v3.5.3.4
+MxSipApp/4.4.11.69 MxSF/v3.2.7.30
+Nortel PCC 6.0.155
+snom200-2.04l
+snomSoft/3.60j
+VideoTel User Agent/1.1
+X-Lite Free World Dialup build 1101
+X-Lite build 1061
+X-Lite build 1082
+X-Lite build 1095
+X-Lite build 1101
+X-Lite release 1103a
+X-Lite release 1103m
+X-Lite release 1104o stamp 56125
+X-PRO build 1082
+X-PRO release 1103a
+X-PRO release 1103v
+XIP Technology AB
+Zultys ZIP 2 3.43 
+Zultys ZIP 2 3.50
+ZyXEL P2000W VoIP Wi-Fi Phone
+eyeBeam Beta release 3003j stamp 15638
+eyeBeam release 3002s stamp 15131
+myJabberAE release 1103n
+oSIP/Linphone-0.12.1
+Cisco-SIPGateway/IOS-12.x
+Cisco-CUCM6.1
+Avaya one-X Deskphone
+Avaya SIP R2.2 Endpoint Brcm Callctrl/1.5.1.0 MxSF/v3.2.6.26
+Nortel PCC 4.1.681
+Avaya CM/R013x.01.3.640.2
+Kapanga Softphone Desktop 1.00/2175d+1231929961_00FFA39AD947_000E0CB3B2E1_000E0CB3B2E0_0019DBDECBD6

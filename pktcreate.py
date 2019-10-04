@@ -85,8 +85,8 @@ def fill_packet_data(text):
 	while(rand1==rand2):
 	    rand1=int(random.randint(7000,8000))
 	    rand2=int(random.randint(7000,8000))	
-	var_dict = {'[[server_ip]]':"192.168.54.112",
-	  '[[server_port]]': "5060",
+	var_dict = {'[[server_ip]]':"192.168.54.223",
+	  '[[server_port]]': "5090",
 	  '[[client_ip]]': "192.168.51.135",
 	  '[[client_port]]': "8192",
 	  '[[from_user]]': str(rand2),

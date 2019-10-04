@@ -43,7 +43,7 @@ except socket.error , msg:
 packet = '';
 
 source_ip = '192.168.51.135'
-dest_ip = '192.168.54.112'      # or socket.gethostbyname('www.google.com')
+dest_ip = '192.168.54.223'      # or socket.gethostbyname('www.google.com')
 
 # ip header fields
 ip_ihl = 5
@@ -64,27 +64,29 @@ ip_ihl_ver = (ip_ver << 4) + ip_ihl
 ip_header = pack('!BBHHHBBH4s4s' , ip_ihl_ver, ip_tos, ip_tot_len, ip_id, ip_frag_off, ip_ttl, ip_proto, ip_check, ip_saddr, ip_daddr)
 
 
-#packet
-
-sipData=genPacket("register")
-
 # udp header fields
 sport = 8192
-dport = 5060
-total_len = 8+len(sipData)
+dport = 5090
 checksum = 0
 
-udp_header = pack('!HHHH', sport, dport, total_len, checksum)
-fPacket=ip_header+udp_header+sipData
 
 
-#s.sendto(fPacket, ('192.168.54.112',0));
-s.settimeout(3)
+
+#packet
+while(True):
+        sipData=genPacket("register")
+        total_len = 8+len(sipData)
+        udp_header = pack('!HHHH', sport, dport, total_len, checksum)
+        fPacket=ip_header+udp_header+sipData
+
+
+        s.sendto(fPacket, ('192.168.54.223',0));
+#s.settimeout(3)
 #s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-msg, ancdata, flags, addr = s.recvmsg(8000, socket.CMSG_LEN(8000))
-s.connect(("192.168.54.112",5060))
-s.sendall(fPacket)
-buff,srcaddr = s.recvfrom(8192)
+#msg, ancdata, flags, addr = s.recvmsg(8000, socket.CMSG_LEN(8000))
+#s.connect(("192.168.54.112",5060))
+#s.sendall(fPacket)
+#buff,srcaddr = s.recvfrom(8192)
 s.close()
 """
 # tcp header fields
